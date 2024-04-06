@@ -13,6 +13,7 @@ body{
 section {
     height: 100vh;
     background-color: #000000;
+    background-image: url('https://st3.depositphotos.com/1194063/15070/i/450/depositphotos_150709644-stock-photo-various-herbs-and-spices.jpg');
     display:flex;
     background-size: cover;
     background-position: center;
