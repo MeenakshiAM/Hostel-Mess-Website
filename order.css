@@ -52,8 +52,12 @@ header{
 }
 .navbar .link{
     display: flex;
-    color:#fff;
     gap : 2rem;
+}
+
+.navbar .link .a {
+    display: flex;
+    color :#fff;
 }
 
 .dropdown_menu{
