@@ -129,7 +129,7 @@ section #content{
 }
 
 @media (max-width: 992px){
-    .navbar .links,
+    .navbar .link,
     .navbar .action_btn{
         display: none;
     }
