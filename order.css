@@ -12,8 +12,8 @@ body{
 }
 section {
     height: 100vh;
-    background-color: #000000;
-    background-image: url('https://st3.depositphotos.com/1194063/15070/i/450/depositphotos_150709644-stock-photo-various-herbs-and-spices.jpg');
+    background-color: #000;
+    background-image: url('./bg.jpg');
     display:flex;
     background-size: cover;
     background-position: center;
@@ -21,6 +21,12 @@ section {
 li{
     list-style: none;
     color: #fff;
+}
+img{
+    width: 2rem; 
+    height: 2rem; 
+    margin-right: 1rem;
+    border-radius: 50%;
 }
 a{
     text-decoration: none;
@@ -54,10 +60,11 @@ header{
     display: flex;
     gap : 2rem;
 }
-
-.navbar .link .a {
-    display: flex;
-    color :#fff;
+.navbar .toggle_btn{
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
 }
 
 .dropdown_menu{
