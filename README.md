@@ -1,6 +1,6 @@
-# Hostel-Mess-Website
+# Hostel-Mess-Website:
 
-# languages
+# languages:
 . HTML
 . CSS
 . Javascript
