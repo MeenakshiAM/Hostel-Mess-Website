@@ -41,6 +41,7 @@ a:hover {
 .food-container {
     display: flex;
     justify-content: center;
+    background: transparent;
 }
 
 .food-item {
@@ -51,20 +52,29 @@ a:hover {
     padding: 20px;
     margin: 10px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    display: flex; 
 }
 
-.food-item img {
+.food-image {
+    width: 50%; 
+    padding-right: 10px; 
+}
+
+.food-image img {
     width: 100%;
     height: auto;
     border-radius: 10px; 
 }
 
-.food-item h3 {
+.food-info {
+    width: 50%;
+
+.food-info h3 {
     font-size: 1.2rem;
     margin-top: 10px;
 }
 
-.food-item p {
+.food-info p {
     font-size: 0.9rem;
     color: #666; 
 }
@@ -79,7 +89,7 @@ a:hover {
 }
 
 .quantity input[type="number"] {
-    width: 50px; /* Adjust as needed */
+    width: 50px; 
     height: 30px;
     padding: 5px;
     margin-top: 5px;
@@ -180,4 +190,5 @@ header{
         left: 2rem;
         width: unset;
     }
+}
 }
